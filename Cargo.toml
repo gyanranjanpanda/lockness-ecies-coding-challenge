@@ -1,0 +1,15 @@
+[package]
+name = "lockness-ecies"
+version = "0.1.0"
+edition = "2021"
+description = "EC-based encryption scheme for Lockness mentorship challenge"
+license = "MIT"
+
+[dependencies]
+generic-ec = { version = "0.5", features = ["curve-ed25519", "curve-secp256k1", "curve-secp384r1"] }
+sha2 = "0.10"
+rand = "0.8"
+thiserror = "1"
+
+[dev-dependencies]
+hex = "0.4"
