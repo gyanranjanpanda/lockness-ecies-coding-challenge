@@ -114,7 +114,7 @@ mod tests {
     fn keypair_from_u64<E: Curve>(n: u64) -> (SecretScalar<E>, Point<E>) {
         let mut padded = [0u8; 32];
         padded[24..].copy_from_slice(&n.to_be_bytes());
-        let scalar = Scalar::<E>::from_be_bytes_mod_order(&padded);
+        let scalar = Scalar::<E>::from_be_bytes_mod_order(padded);
         let sk = SecretScalar::<E>::new(&mut scalar.clone());
         let pk = Point::generator() * &sk;
         (sk, pk)

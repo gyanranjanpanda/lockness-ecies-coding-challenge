@@ -1,6 +1,6 @@
 # Lockness ECIES Implementation
 
-This repository contains a Rust implementation of the Elliptic Curve Integrated Encryption Scheme (ECIES) for the Lockness Mentorship Coding Challenge (LFDT - Implement DKLs23).
+This repository contains a Rust implementation of the elliptic-curve encryption scheme for the Lockness Mentorship Coding Challenge.
 
 ## Features
 
@@ -33,4 +33,3 @@ This will run all unit tests, verifying the correctness of encryption/decryption
 
 - `src/lib.rs`: Contains the core implementation of the `encrypt` and `decrypt` functions, custom error types, and the test suite.
 - `Cargo.toml`: Defines the project dependencies.
-

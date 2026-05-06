@@ -1,18 +1,18 @@
 Dear Mentors,
 
-Thank you for the opportunity to apply for the LFDT - Implement DKLs23 (threshold ECDSA) protocol mentorship.
+Thank you for the opportunity to apply for the LFDT Lockness mentorship coding challenge.
 
-As requested, due to the upload format restrictions on the LFX Mentorship portal, I am submitting the link to my source code repository for the coding challenge.
+As requested, due to the upload format restrictions on the LFX Mentorship portal, I am submitting the link to my private source code repository for the coding challenge.
 
-Repository URL: <INSERT_YOUR_GITHUB_REPO_URL_HERE>
+Repository URL: https://github.com/gyanranjanpanda/lockness-ecies-coding-challenge
 
 ### Setup and Execution Instructions
 
 1. Ensure you have Rust installed (https://rustup.rs/).
 2. Clone the repository:
-   git clone <INSERT_YOUR_GITHUB_REPO_URL_HERE>
+   git clone https://github.com/gyanranjanpanda/lockness-ecies-coding-challenge.git
 3. Navigate to the project directory:
-   cd lockness-ecies-clean
+   cd lockness-ecies-coding-challenge
 4. Run the test suite to verify the implementation:
    cargo test
 
@@ -21,4 +21,4 @@ The codebase is fully documented and includes tests for multiple curves to demon
 Thank you for your time and consideration.
 
 Best regards,
-<YOUR_NAME>
+Gyanranjan Panda
